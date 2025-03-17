@@ -6409,7 +6409,7 @@ class PlayLayer : cocos2d::CCLayer, CCCircleWaveDelegate, GameplayDelegate {
 	virtual TodoReturn getCustomColor04Blend() const;
 	virtual TodoReturn getCustomColor3DBlend() const;
 
-	bool m_bUnknown1;
+	bool m_debugDraw;
 	cocos2d::CCDrawNode* m_drawNode;
 	float m_cameraMoveToY;
 	float m_fUnknown1;
